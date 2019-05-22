@@ -15,6 +15,7 @@ public class Main {
 
         System.out.println("Original array : " + Arrays.toString(array));
         System.out.println("Sorted array : " + Arrays.toString(ar.sortArray(array)));
+        System.out.println("Filtered array : " + Arrays.toString(ar.filterArray(array, (Integer a)->{return a*2;})));
 
         ListOfString listOfString = new ListOfString();
         ArrayList<String> list = listOfString.getListOfString(size);
